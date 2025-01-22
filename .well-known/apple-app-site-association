@@ -10,7 +10,7 @@
       {
         "appID": "3CAH5E3CNB.com.yclients.admin",
         "paths": [
-          "/clients/*/base/",
+          "/clients/*",
           "/help/website/*",
           "/help/*",
           "/buy/*",
