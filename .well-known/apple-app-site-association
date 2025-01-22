@@ -10,11 +10,7 @@
       {
         "appID": "3CAH5E3CNB.com.yclients.admin",
         "paths": [
-          "/clients/*",
-          "/help/website/*",
-          "/help/*",
-          "/buy/*",
-          "/support/*"
+          "*",
         ],
         "components": [
           {
@@ -23,8 +19,8 @@
             "comment": "Matches any URL whose fragment equals no_universal_links and instructs the system not to open it as a universal link"
           },
           {
-            "/": "/clients/*/base/",
-            "comment": "Matches any URL whose path starts with /clients/*/base/"
+            "/": "/clients/*",
+            "comment": "Matches any URL whose path starts with /clients/*"
           },
           {
             "/": "/help/website/*",
