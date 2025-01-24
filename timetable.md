@@ -1,3 +1,3 @@
 layout: page
 title: "timetable-page"
-permalink: /clients
+permalink: /timetable
