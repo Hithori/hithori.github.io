@@ -11,7 +11,6 @@
         "appID": "3CAH5E3CNB.com.yclients.admin",
         "paths": [
           "*",
-          "NOT *without_linking=1",
         ],
         "components": [
             {
