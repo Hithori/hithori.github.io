@@ -27,7 +27,10 @@
             {
               "/": "/timetable/*",
               "comment": "Matches any URL whose path starts with /timetable/*"
-            }
+            },
+            {
+                "/": "/settings/filial_staff/*",
+            },
         ]
       }
     ]
