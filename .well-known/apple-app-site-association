@@ -10,10 +10,10 @@
       {
         "appID": "3CAH5E3CNB.com.yclients.admin",
         "paths": [
-          "*",
           "NOT /vk/*",
           "NOT /analytics/report/*",
-          "NOT /analytics/admins/*"
+          "NOT /analytics/admins/*",
+          "*"
         ],
         "components": [
           {
