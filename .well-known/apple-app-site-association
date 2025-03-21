@@ -9,12 +9,6 @@
     "details": [
       {
         "appID": "3CAH5E3CNB.com.yclients.admin",
-        "paths": [
-          "NOT /vk/*",
-          "NOT /analytics/report/*",
-          "NOT /analytics/admins/*",
-          "*"
-        ],
         "components": [
           {
             "?": {
