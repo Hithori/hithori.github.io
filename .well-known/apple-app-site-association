@@ -28,52 +28,32 @@
             "comment": "Matches /analytics/ followed by numbers, e.g., /analytics/647068"
           },
           {
-            "/": "/settings/service_categories/[0-9]*",
+            "/": "/settings/service_categories/*",
             "comment": "Matches /settings/service_categories/ followed by numbers, e.g., /settings/service_categories/647068"
           },
           {
-            "/": "/settings/filial_staff/[0-9]*",
+            "/": "/settings/filial_staff/*",
             "comment": "Matches /settings/filial_staff/ followed by numbers, e.g., /settings/filial_staff/647068"
-          },
-          {
-            "/": "/work_schedule/[0-9]*",
-            "comment": "Matches /work_schedule/ followed by numbers, e.g., /work_schedule/647068"
           },
           {
             "/": "/work_schedule/*",
             "comment": "Matches /work_schedule/ followed by numbers, e.g., /work_schedule/647068"
           },
           {
-            "/": "/clients/*",
-            "comment": "Matches /work_schedule/ followed by numbers, e.g., /work_schedule/647068"
-          },
-          {
-            "/": "/online/booking_forms/[0-9]*",
+            "/": "/online/booking_forms/*",
             "comment": "Matches /online/booking_forms/ followed by numbers, e.g., /online/booking_forms/647068"
-          },
-          {
-            "/": "/settings/menu/[0-9]*",
-            "comment": "Matches /settings/menu/ followed by numbers, e.g., /settings/menu/647068"
           },
           {
             "/": "/analytics/*",
             "comment": "Matches /analytics/ followed by numbers, e.g., /analytics/647068"
           },
           {
-            "/": "/salary/calculations/[0-9]*",
+            "/": "/salary/calculations/*",
             "comment": "Matches /salary/calculations/ followed by numbers, e.g., /salary/calculations/647068"
           },
           {
-            "/": "/settings/salon/notification/[0-9]*",
-            "comment": "Matches /settings/salon/notification/ followed by numbers, e.g., /settings/salon/notification/647068"
-          },
-          {
-            "/": "/settings/salon/notification/[0-9]*/sms",
+            "/": "/settings/salon/notification/*/sms",
             "comment": "Matches /settings/salon/notification/ followed by numbers and /sms, e.g., /settings/salon/notification/647068/sms"
-          },
-          {
-            "/": "/dashboard_message/[0-9]*",
-            "comment": "Matches /dashboard_message/ followed by numbers, e.g., /dashboard_message/647068"
           }
         ]
       }
