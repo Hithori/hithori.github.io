@@ -11,7 +11,9 @@
         "appID": "3CAH5E3CNB.com.yclients.admin",
         "paths": [
           "*",
-          "NOT /vk/*"
+          "NOT /vk/*",
+          "NOT /analytics/report/*",
+          "NOT /analytics/admins/*"
         ],
         "components": [
           {
@@ -51,16 +53,6 @@
           },
           {
             "/": "/analytics/*",
-            "comment": "Matches /analytics/ followed by numbers, e.g., /analytics/647068"
-          },
-          {
-            "/": "/analytics/report/*",
-            "exclude": true,
-            "comment": "Matches /analytics/ followed by numbers, e.g., /analytics/647068"
-          },
-          {
-            "/": "/analytics/admins/*",
-            "exclude": true,
             "comment": "Matches /analytics/ followed by numbers, e.g., /analytics/647068"
           },
           {
