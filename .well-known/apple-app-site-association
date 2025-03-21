@@ -23,6 +23,16 @@
             "exclude": true,
             "comment": "Exclude all links with without_linking=1"
           },
+         {
+            "/": "/analytics/report/*",
+            "exclude": true,
+            "comment": "Matches /analytics/ followed by numbers, e.g., /analytics/647068"
+          },
+          {
+            "/": "/analytics/admins/*",
+            "exclude": true,
+            "comment": "Matches /analytics/ followed by numbers, e.g., /analytics/647068"
+          },
           {
             "/": "/settings/service_categories/[0-9]*",
             "comment": "Matches /settings/service_categories/ followed by numbers, e.g., /settings/service_categories/647068"
