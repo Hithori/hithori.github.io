@@ -23,6 +23,11 @@
             "comment": "Matches /analytics/ followed by numbers, e.g., /analytics/647068"
           },
           {
+              "/": "/vk/*",
+              "exclude": true,
+              "comment": "Matches /vk/* routes
+          },
+          {
             "/": "/analytics/admins/*",
             "exclude": true,
             "comment": "Matches /analytics/ followed by numbers, e.g., /analytics/647068"
